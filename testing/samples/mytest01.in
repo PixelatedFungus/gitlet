@@ -1,0 +1,29 @@
+# Checks for basic things
+I prelude1.inc
+> commit
+Please enter a commit message.
+<<<
+> branch other
+<<<
++ a.txt wug.txt
++ g.txt wug.txt
+> rm a.txt
+No reason to remove the file.
+<<<
+> rm g.txt
+No reason to remove the file.
+<<<
+> add a.txt
+<<<
+> add g.txt
+<<<
+> commit "Add both txt files"
+<<<
+> checkout other
+<<<
+* a.txt
+* g.txt
+> checkout master
+<<<
+= a.txt wug.txt
+= g.txt wug.txt

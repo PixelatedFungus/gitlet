@@ -1,0 +1,17 @@
+> init
+<<<
+> booyah
+No command with that name exists.
+<<<
+> reset
+Incorrect operands.
+<<<
+> checkout -- --
+Incorrect operands.
+<<<
+> rm-branch master
+Cannot remove the current branch.
+<<<
+> find abcdef
+Found no commit with that message.
+<<<

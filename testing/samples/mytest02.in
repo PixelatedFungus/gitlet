@@ -1,0 +1,15 @@
+I setup2.inc
+> commit "Redundant commit"
+No changes added to the commit.
+<<<
++ a.txt wug.txt
+> add a.txt
+<<<
+> commit "a.txt"
+<<<
+> init
+A Gitlet version-control system already exists in the current directory.
+<<<
+= a.txt wug.txt
+* h.txt
+* m.txt
